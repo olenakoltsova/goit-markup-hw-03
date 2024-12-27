@@ -191,9 +191,7 @@ img {
 .container .section-cont {
   margin: 0 auto;
 }
-.section-cont {
-  text-align: center;
-}
+
 .section-list {
   display: flex;
   gap: 24px;
@@ -230,7 +228,6 @@ img {
 .section-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: calc((100% - 72px) / 4);
 }
 .section-title {
