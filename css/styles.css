@@ -7,6 +7,10 @@ body {
 a {
   text-decoration: none;
 }
+
+button {
+  cursor: pointer;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -130,6 +134,7 @@ img {
   gap: 24px;
 }
 .hero-list-item {
+  justify-content: left;
   width: calc((100% - 72px) / 4);
 }
 .hero {
@@ -160,7 +165,6 @@ img {
   padding: 120px 0;
 }
 .hero-btn {
-  cursor: pointer;
   display: block;
   font-weight: 500;
   line-height: 1.5;
@@ -176,12 +180,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.button {
-}
+
 .btn-cont-hero {
   display: flex;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
@@ -199,7 +201,6 @@ img {
 }
 .title-desc {
   margin-bottom: 8px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -207,7 +208,6 @@ img {
   color: #2e2f42;
 }
 .text-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -219,7 +219,9 @@ img {
 .section {
   padding: 120px 0;
 }
-
+.section-tech {
+  padding: 120px 0;
+}
 .section-hero {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -251,6 +253,8 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.tech-desc {
   width: calc((100% - 48px) / 3);
 }
 .page-footer {
